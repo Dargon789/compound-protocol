@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "@solidity-parser/parser": "^0.13.2",
-    "eth-saddle": "^0.1.25"
+    "eth-saddle": "^0.1.25",
+    "lodash": "^4.17.21"
   },
   "resolutions": {
     "scrypt.js": "https://registry.npmjs.org/@compound-finance/ethereumjs-wallet/-/ethereumjs-wallet-0.6.3.tgz",
