@@ -63,9 +63,8 @@ function run(file) {
   const network = process.env['NETWORK'] || process.env['network'] || 'test';
 
   if (scenarioEnv) {
-    const safeScenarioEnv = _.escapeRegExp(scenarioEnv);
-    console.log(`running scenarios matching: /${safeScenarioEnv}/i`);
-    scenarioFilter = new RegExp(safeScenarioEnv, 'i');
+    console.log(`running scenarios matching: /${scenarioEnv}/i`);
+    scenarioFilter = new RegExp(scenarioEnv, 'i');
   }
 
   describe('ScenarioTest', () => {
