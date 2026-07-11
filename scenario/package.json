@@ -28,7 +28,7 @@
     "immutable": "^4.0.0-rc.12",
     "truffle-flattener": "^1.4.4",
     "web3": "^4.0.1",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "^1.0.0"
   },
   "resolutions": {
     "scrypt.js": "https://registry.npmjs.org/@compound-finance/ethereumjs-wallet/-/ethereumjs-wallet-0.6.3.tgz",
