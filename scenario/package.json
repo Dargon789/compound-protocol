@@ -24,11 +24,11 @@
   "dependencies": {
     "bignumber.js": "9.0.0",
     "eth-saddle": "^0.1.25",
-    "ethers": "^5.7.2",
+    "ethers": "^6.0.0",
     "immutable": "^4.0.0-rc.12",
     "truffle-flattener": "^1.4.4",
     "web3": "^4.0.1",
-    "@snyk/protect": "^1.119.0"
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "scrypt.js": "https://registry.npmjs.org/@compound-finance/ethereumjs-wallet/-/ethereumjs-wallet-0.6.3.tgz",
